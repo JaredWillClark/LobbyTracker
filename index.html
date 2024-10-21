@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Counter</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- clicker counter button  -->
+    <section class="clicker__section">
+        <div class="clicker__content">
+            <p>Clicks: <a href="" id="clickNum"></a></p>
+            <button 
+                class="
+                    clicker__button--click 
+                    clicker__button--color" 
+                type="button"
+                onClick="onClick()">+1 Click</button>
+        </div>
+    </section>
+
+    <!-- save clicks button  -->
+    <section class="clicker__section">
+        <div class="clicker__content">
+            <button 
+            class="
+                clicker__button--saveDaily
+                clicker__button--color" 
+            type="button"
+            onClick="saveTodaysClicks()">Save Today's Clicks</button>
+        </div>
+    </section>
+
+    <!-- remove the script outside the clickerBody element to show CSS -->
+    <script src="clicker_counter.js"></script>
+
+
+</body>
+</html>
